@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .navbar h5 {
+    font-size: 1.5vw;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    font-size: 1vw;
+    padding-right: 2vw;
+  }
+  .register-box {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .red-box {
+    width: 40vw;
+    height: 10vh;
+    background: linear-gradient(
+      90.1deg,
+      #46052d -1.59%,
+      #46052d -1.58%,
+      #500732 14.15%,
+      #5e0933 31.58%,
+      #610834 46.9%,
+      #6a0b37 62.75%,
+      #991747 76.48%,
+      #b32346 93.91%
+    );
+    display: flex;
+    align-items: center;
+  }
+  
+  .red-box h5 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+    padding-left: 2vw;
+  }
+  
+  .white-box {
+    width: 50%;
+    padding: 2rem;
+    background-color: #ffff;
+    box-shadow: 0px 4px 90px 2px rgba(165, 164, 164, 0.25);
+    border-radius: 10px;
+    display: flex;
+  }
+  
+  .red-pattern {
+    background: conic-gradient(
+      from 180deg at 50% 50%,
+      #a8174e -22.88deg,
+      #550832 42.75deg,
+      #b32346 112.12deg,
+      #5e0933 160.87deg,
+      #991747 209.62deg,
+      #b32346 249deg,
+      #500732 295.87deg,
+      #a8174e 337.12deg,
+      #550832 402.75deg
+    );
+    box-shadow: 0px 4px 90px 2px rgba(209, 205, 205, 0.25);
+    border-radius: 10px;
+    width: 35%;
+    height: 60vh;
+    margin-left: 2rem;
+  }
+  
+  .find-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+  }
+  
+  .find-form h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vw;
+    line-height: 35px;
+  
+    color: #000000;
+  }
+  
+  .refer {
+    text-align: right;
+    width: 242%;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: #1840fc;
+    text-decoration: underline;
+  }
+  
+  .loginInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  .loginRadio {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  .loginButton {
+    background-color: #1840fc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }

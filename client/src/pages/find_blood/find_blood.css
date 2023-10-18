@@ -1,0 +1,69 @@
+/* add css in index.js */
+/* Path: client\src\pages\find_blood\index.js */
+/* add css in index.js */
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+.containerof{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 75%;
+  height: 100%;
+  overflow: auto;
+}
+
+.findbloodInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.findbloodButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.noDataFound {
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
